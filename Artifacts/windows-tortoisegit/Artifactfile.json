@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "TortoiseGit",
+    "publisher": "AppCentrica",
+    "description": "Installs TortoiseGit using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "TortoiseGit"
+    ],
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/8/88/TortoiseGit_logo.svg",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'tortoisegit', '\"')]"
+    }
+}

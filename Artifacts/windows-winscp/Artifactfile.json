@@ -7,7 +7,7 @@
         "Windows",
         "WinSCP"
     ],
-    "iconUri": "https://en.wikipedia.org/wiki/WinSCP#/media/File:WinSCP_Logo.png",
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/d/de/WinSCP_Logo.png",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'winscp', '\"')]"
